@@ -2,9 +2,7 @@
 
 Type 2 diabetes occurs when the body resists the effects of insulin and cannot make enough insulin to maintain blood glucose levels within the target range. This leads to high blood glucose levels.Type 2 Diabetes affects almost 90% of all people with Diabetes. Our Diabetes predictor bot will advise you on your risk of acquiring diabetes and recommend a Diabetic clinic close to you to seek preventative treatment early. 
 
-....*It will also recommend a Private Health Insurance (PHI) product for you*.
-
-It is our aim to extend our bot from just a Diabetes risk predictor to become a holistic health bot taking in more disease data inputs. We can then extend our health bot's clinic and PHI recommendations.
+It is our aim to extend our bot from just a Diabetes risk predictor to become a holistic health bot taking in more disease data inputs. We can then extend our health bot's recommendation capabilities to aid practitioners in everyday practice and motivate their patients to take control of their own well-being.  
 
 ![couple](Images/robotdoctor.jpg)
 
@@ -18,7 +16,7 @@ It is our aim to extend our bot from just a Diabetes risk predictor to become a 
 
 ## What problem does the app attempt to solve?
 
-An automated health advisor designed for people not for organisations. It can be used to predict the risk of acquiring disease using an individual's reported lifestyle inputs within Machine Learning (ML) Classification Algorithms. We can then use Natural Language Processing (NLP) of review sentiment to compare and recommend health related offerings like Clinical Services or Private Health Insurance Policies.
+An automated health advisor designed for people not for organisations. It can be used to predict the risk of acquiring disease using an individual's reported lifestyle inputs within Machine Learning (ML) Classification Algorithms. We can then use Natural Language Processing (NLP) of review sentiment to compare and recommend health related offerings like Clinical Services. Commercially, the bot may appeal to many corporations within the health sector from product suppliers to Private Health Insurance companies looking to promote their products and provide quotes off of the bot's predictions.
 
 ## How does the app solve this problem at a high-level?
 
