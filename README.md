@@ -42,13 +42,13 @@ An automated health advisor designed for people not for organisations. It can be
 
 ### Lex Bot V2
 
-[Bot Intent Handler](LexBot/DiaBot-Export-JSON.zip)
+[Bot Export](LexBot/DiaBot-Export-JSON.zip)
 
-### Code for the AWS Lambda Function:
+### Code for the AWS Lambda Function
 
 [Bot Intent Handler](LexBot/lambda_function.py)
 
-[Integration to JotForms](LexBot/integration.py)
+[Integration with JotForms](LexBot/integration.py)
 
 [Prediction Model](LexBot/prediction_model.py)
 
@@ -66,7 +66,7 @@ Alternatively, They need to be installed along with the code.
 
 ### Low Risk
 
-![Public High Risk](Images/public_low_risk.gif)i
+![Public Low Risk](Images/public_low_risk.gif)i
 
 ## Private (Integration Module)
 
