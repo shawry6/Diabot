@@ -4,7 +4,7 @@ Type 2 diabetes occurs when the body resists the effects of insulin and cannot m
 
 It is our aim to extend our bot from just a Diabetes risk predictor to become a holistic health bot taking in more disease data inputs. We can then extend our health bot's recommendation capabilities to aid practitioners in everyday practice and motivate their patients to take control of their own well-being.  
 
-![couple](Images/robotdoctor.jpg)
+![bot](Images/robotdoctor.jpg)
 
 ## Team members
 
@@ -36,14 +36,52 @@ An automated health advisor designed for people not for organisations. It can be
 7. Implement a NLP solution to interpret reviews from locations
 8. Implement a health related product advisor
 
-<!-- To be included later
+# Bot Installation
 
-## Show the app running and solving the problem, as outlined in your narrative
+## Pre-requisites
 
-## Discuss any features you'd like to add in an update to your app
+### Lex Bot V2
+
+[Bot Intent Handler](LexBot/DiaBot-Export-JSON.zip)
+
+### Code for the AWS Lambda Function:
+
+[Bot Intent Handler](LexBot/lambda_function.py)
+
+[Integration to JotForms](LexBot/integration.py)
+
+[Prediction Model](LexBot/prediction_model.py)
+
+The lamda function must support Pandas and Request. If you want to import the dependancies as existing layers you may want to have a look at [this link](https://github.com/model-zoo/scikit-learn-lambda)
+
+Alternatively, They need to be installed along with the code.
+
+# Testing Examples
+
+## Public
+
+### High Risk
+
+![Public High Risk](Images/public_high_risk.gif)
+
+### Low Risk
+
+![Public High Risk](Images/public_low_risk.gif)i
+
+## Private (Integration Module)
+
+The bot must follow a similar pattern as the one shown below:
+
+![bot](Images/Diabot-Welcome.drawio.png)
+
+### Pracitioners - Request Data (Integration)
+
+![Private Search](Images/private_search.gif)
+
+## For future use cases
+
+- Implement an API that is capable of interacting with many different ML. It is not suggested to have the ML models as part of this repo.
 
 ## Presentation
 
-## Additional Material
-
--->
+[PDF Version](Diabot_slides.pdf)
